@@ -1,0 +1,215 @@
+/* ==========================
+        ACCUEIL
+========================== */
+
+#accueil{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 10%;
+}
+/* MENU */
+
+nav{
+
+    display:flex;
+    gap:35px;
+    align-items:center;
+
+}
+
+
+.nav-link{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+.nav-link:hover{
+
+    color:#d63384;
+
+}
+.home-content{
+    max-width: 800px;
+}
+
+/* TITRE */
+.home-content h2{
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+/* TEXTE */
+.home-content p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+
+/* BOUTONS */
+.home-buttons{
+    margin-top: 30px;
+}
+
+.home-buttons a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 30px;
+    margin: 10px;
+    background: #d63384;
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+
+.home-buttons a:hover{
+    background: #b91c6b;
+    transform: translateY(-3px);
+}
+/* ==========================
+        HEADER
+========================== */
+
+
+.site-header{
+
+    width:100%;
+
+    background:white;
+
+    padding:20px 8%;
+
+}
+
+
+.container-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+/* LOGO + NOM */
+
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.logo{
+
+    width:55px;
+
+    height:55px;
+
+
+    background:#da3f8d;
+
+    color:white;
+
+
+    border-radius:50%;
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+
+
+.brand h1{
+
+    font-size:22px;
+
+    color:#111;
+
+}
+
+
+
+/* MENU */
+
+
+.main-menu{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+}
+
+
+
+.nav-link{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-weight:600;
+
+    font-size:16px;
+
+    transition:0.3s;
+
+}
+
+
+
+.nav-link:hover{
+
+    color:#d63384;
+
+}
+#accueil{
+    background:#f8f9fc;
+    min-height:90vh;
+}
+.profile-image{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
